@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-async function run() {
+async function srujan() {
   // Launch headful browser
   const browser = await puppeteer.launch({ headless: false });
 
@@ -26,4 +26,4 @@ async function run() {
   // await browser.close();
 }
 
-run();
+srujan();
